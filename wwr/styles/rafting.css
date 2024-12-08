@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Varela+Round&display=swap');
+:root {
+    --primary-color: #264969;
+    --secondary-color: #EFC7C2;
+    --accent1-color: #561D25;
+    --accent2-color:#91B7C7 ;
+    --heading-font: "varela-round-regular", sans-serif;
+    --paragraph-font: "newsreader", sans-serif;
+  }
+  body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+  }
+  header {
+    padding: 10px;
+    background-color: var(--primary-color);
+  }
+  header img {
+    width: 140px;
+  }
+  p {
+    padding: 10px;
+  }
+  nav {
+    background-color: var(--nav-bg-color);
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  footer {
+    margin-top: 1rem;
+    border-top: 1px solid rgb(0, 0, 0);
+    text-align: center;
+  }
+  .hero {
+    color: black;
+  }
+  .hero img {
+    display: block;
+    height: auto;
+  }
+  .image {
+    width: 100%;
+  }
+  h1 {
+    position: absolute;
+    top: 40%;
+  }
+  article {
+    position: absolute;
+    top: 50%;
+    color: black;
+    font-size: 24px;
+  }
+  article {
+    background-color: rgba(239, 199, 194, .4);
+  }
+  article img {
+    float: right;
+    width: 20%;
+  } 
+  section img {
+    width: 30%;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+  nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sociallinks img {
+    width: 15%;
+  }
+  .imgtext p {
+    color: white;
+  }
+  figure {
+    border: thin var(--primary-color) solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+  }  
+  figcaption {
+    padding: 3px;
+    text-align: center;
+  }
+  .figureImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
