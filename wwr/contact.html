@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us | Dry Oar Rafting</title>
+    <meta name="description" content="Dry Oar Rafting contact us webpage">
+    <meta name="author" content="Alexzander Allen">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Varela+Round&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <img src="images/logo.jpg" alt="logo" width="140">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+          </nav> 
+    </header>
+    <main class="contactus">
+        <section class="companyinfo">
+            <h2>Company Information</h2>
+            <p>Address: BYU-Idaho 210 W 4th S Rexburg, ID 83460</p>
+            <p>Phone: 208-496-1411</p>
+            <p>Email: ask@byui.edu</p>
+
+            <div class="googlemap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.619665013817!2d-111.78855517595615!3d43.81848828318717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b075d3530e1%3A0xaaf040eb17821023!2s210%20W%204th%20S%2C%20Rexburg%2C%20ID%2083440!5e0!3m2!1sen!2sus!4v1734212616311!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="flex">Meet Our Team</h2>
+        <div class="employee-profiles">
+          <div class="employee">
+            <img src="images/employee1.jpg" alt="Employee 1"/>
+            <p>Caption: Joe Oar - CEO</p>
+          </div>
+          <div class="employee">
+            <img src="images/employee2.jpg" alt="Employee 2"/>
+            <p>Caption: Jessica Oar - HR</p>
+          </div>
+          <div class="employee">
+            <img src="images/employee3.jpg" alt="Employee 3"/>
+            <p>Caption: Bob - lead rafting trainer</p>
+          </div>
+        </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required/>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required/>
+    
+              <label>Purpose of Message:</label>
+              <br/><br/>
+              <input
+                type="radio"
+                id="generalInquiry"
+                name="purpose"
+                value="General Inquiry"
+                checked
+              />
+              <label for="generalInquiry">General Inquiry</label>
+              <input
+                type="radio"
+                id="reservationQuestion"
+                name="purpose"
+                value="Reservation Question"
+              />
+              <label for="reservationQuestion">Reservation Question</label>
+              <input
+                type="radio"
+                id="websiteSuggestion"
+                name="purpose"
+                value="Website Suggestion"
+              />
+              <label for="websiteSuggestion">Website Suggestion</label>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+              <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+              <button type="submit" id="submitButton">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 Dry Oar Rafting, Alexzander Allen</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo.png" alt="facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter-logo.png" alt="twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-logo.png" alt="instagram">
+            </a>
+            <a href="https://app.moqups.com/AOoTqSkudtsQNg2TOMjuJvEN9Y8uv3xK/view/page/ad64222d5">Wire Frame</a>
+        </nav>
+    </footer>
+  </body>
+</html>
